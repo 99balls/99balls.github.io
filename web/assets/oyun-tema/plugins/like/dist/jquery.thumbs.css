@@ -1,0 +1,41 @@
+
+
+.jq-rating div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 7px;
+    font-weight: 700;
+    background-color: #fff;
+    padding-left: 0;
+    font-size: 11px;
+}
+
+
+.sprite{
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 50%;
+    background-size: 20px;
+}
+.like-icon{
+    background-image: url(images/like.png);
+    background-color: #bbffc0;
+}
+.like-count{}
+.dislike-icon{
+    background-image: url(images/dislike.png);
+    margin-left: 15px;
+    background-color: #ffd9d9;
+}
+.dislike-count{}
+.js-rating-simple{
+    /* background: #e5e5e5; */
+    padding: 0;
+    float: left;
+    margin-left: 15px;
+    margin-top: 0;
+}
